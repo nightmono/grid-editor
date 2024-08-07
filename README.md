@@ -38,5 +38,9 @@ Grids can contain a custom number of cell types as well as be exported as a 2D a
 # TODO
 
 - [ ] Custom cell values
-- [ ] Improve UX
+- [ ] Drag painting
+- [ ] Fill tool
+- [ ] Grid clearing
+- [ ] Retain grid contents when resizing
+- [ ] Importing grids
 - [ ] Add CSS
