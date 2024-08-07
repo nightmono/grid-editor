@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Editor</title>
+</head>
+<body>
+    <label for="gridWidth">Width:</label>
+    <input type="number" id="gridWidth" min="1" max="999" value="20" onchange="createGrid()">
+
+    <label for="gridHeight">Height:</label>
+    <input type="number" id="gridHeight" min="1" max="999" value="20" onchange="createGrid()">
+
+    <br><br>
+
+    <label for="cellTypes">Cell types:</label>
+    <input type="number" id="cellTypes" min="2" max="99" value="2" onchange="updateColors()">
+
+    <br><br>
+
+    <div id="cellColorPicker"></div>
+
+    <br>
+
+    <button onclick="export2DArray()">Export (2D array)</button><button onclick="exportString()">Export (string)</button>
+
+    <br><br>
+
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
