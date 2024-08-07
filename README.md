@@ -1,8 +1,10 @@
 # Grid Editor
 
-An simple, dynamic, web grid editor useful for generating and editting grids
+A simple, dynamic, web grid (2D array) editor, for your 2D array designing needs
 
-Grids can contain a custom number of cell types as well as be exported as a 2D array or string (examples below)
+I made this project so I could make cellular automata seeds but it can also be used for making 2D game maps and levels (though I would recommend a tool like [Tiled](https://www.mapeditor.org/) 
+
+Grids can contain a custom number of cell types (represented as integers from 0, 1, 2, and onwards) as well as be exported as either a 2D array or string (examples below)
 
 [Live demo](https://nightmono.com/grid-editor/)
 
