@@ -61,26 +61,29 @@ function updateCellColorPicker() {
     });
 }
 
+function exportOutput(output) {
+    navigator.clipboard.writeText(output);
+    console.log('Text copied to clipboard');
+    alert(output);
+    console.log(output);
+}
+
 function export2DArray() {
     let output = "";
     grid.forEach((row) => {
         output = `${output}[${row.join(", ")}],\n`;
-    })
+    });
     // Strip trailing comma and new line
     output = output.slice(0, output.length-2);
-    alert(output);
-    console.log(output);
+    exportOutput(output);
 }
 
 function exportString() {
     let output = "";
     grid.forEach((row) => {
         output = `${output}${row.join("")}\n`;
-    })
-    navigator.clipboard.writeText(output);
-    console.log('Text copied to clipboard');
-    alert(output);
-    console.log(output);
+    });
+    exportOutput(output);
 }
 
 canvas.addEventListener("click", (event) => {
