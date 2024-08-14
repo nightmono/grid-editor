@@ -42,7 +42,7 @@ Grids can contain a custom number of cell types (represented as integers from 0,
 - [ ] Custom cell values
 - [ ] Drag painting
 - [ ] Fill tool
-- [ ] Grid clearing
+- [x] Grid clearing
 - [ ] Retain grid contents when resizing
 - [ ] Importing grids
 - [ ] Add CSS
