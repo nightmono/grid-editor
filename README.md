@@ -43,6 +43,6 @@ Grids can contain a custom number of cell types (represented as integers from 0,
 - [ ] Drag painting
 - [ ] Fill tool
 - [x] Grid clearing
-- [ ] Retain grid contents when resizing
+- [x] Retain grid contents when resizing
 - [ ] Importing grids
 - [ ] Add CSS
